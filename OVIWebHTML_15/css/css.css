@@ -3,45 +3,61 @@
 }
 header{
 	top:0;
-	height: 10%;
+	height: 8%;
 	width: 100%;
+	padding-top: 1%;
 	background-color: rgba(255, 64, 0, 0.9);
 	position: fixed;
 	text-align: center;
-	padding-top: 2%;
 }
 section{
-	background-color:rgba(255,255,255,0.7);		
+		background-color:rgba(255,255,255,0.7);		
 		width: 60%;
 		box-shadow: 0px 0px 70px;
 		border-radius: 10px 10px 10px 10px;
-		padding: 20px;
-		margin-top: 8%;
+		padding: 10px;
+		margin-top: 7%;
 		margin-left: 20%;
 		margin-right: 20%;
 		margin-bottom: 10%;
 }
 article{
-	background-color: blue;
 	margin: 2%;
 	padding: 2%;
+}
+div.est{
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0px 0px 70px;
+	margin-bottom: 15px;
+	padding: 3%;
+}
+img.a{
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin: 2%;
+}
+img.b{
 	text-align: justify;
+	width: 70px;
+	height: 70px;
+	float: right;
+}
+img.unad{
+	padding: 1%;
+	height: 70px;
+	width: 100px;
+	float: left;
+}
+h1{
+	text-align: center;
 }
 h4{
 	padding-top: 3%;
 	padding-left: 8%;
 }
-img.art1{
-	margin-right: 2%;
-	height: 100px;
-	width: 100px;
-	float: left;
-}
-img.unad{
-	padding: 1%;
-	height: 90px;
-	width: 100px;
-	float: left; 
+div{
+	text-align: justify;
 }
 footer{
 	width: 100%;
@@ -49,5 +65,3 @@ footer{
 	position: fixed;
 	bottom: 0;
 }
-
-
